@@ -20,3 +20,9 @@
   display: none;
   top: 145px;
 }
+
+#githubLink {
+  position: fixed;
+  top: 450px;
+  width: 100%;
+}

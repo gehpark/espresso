@@ -1,31 +1,35 @@
 doctype html
 head
-	include slotHeaders.html
-	title Espresso Rich
+  include slotHeaders.html
+  title Espresso Rich
 body
-	.header
-		h1.text-center Espresso Riches
-		h3.text-center#message Pull the lever to play!
+  .header
+    h1.text-center Espresso Riches
+    h3.text-center#message Pull the lever to play!
 
-	#slotMachine.container-fluid
-		#reel-container.row-fluid
-			.reel.col-xs-3.col-xs-offset-1.col-md-2.col-md-offset-3#reel0
-				img(src="/images/espresso0.jpg" title="espresso machine")
-				img(src="/images/tea0.jpg" title="tea pot")
-				img(src="/images/coffee0.jpg" title="coffee maker")
-			.reel.col-xs-3.col-md-2#reel1
-				img(src="/images/espresso1.jpg" title="espresso tamper")
-				img(src="/images/tea1.jpg" title="tea strainer")
-				img(src="/images/coffee1.jpg" title="coffee filter")
-			.reel.col-xs-3.col-md-2#reel2
-				img(src="/images/espresso2.jpg" title="espresso beans")
-				img(src="/images/tea2.jpg" title="loose tea")
-				img(src="/images/coffee2.jpg" title="coffee grounds")
-			.col-xs-1#lever-container
-				#readyLever
-					img(src="/images/lever.png" title="lever: pull me!")
-				#spinningLever
-					img(src="/images/leverpulled.png" title="lever: spinning now..")
+  #slotMachine.container-fluid
+    #reel-container.row-fluid
+      .reel.col-xs-3.col-xs-offset-1.col-md-2.col-md-offset-3#reel0
+        img(src="/images/espresso0.jpg" title="espresso machine")
+        img(src="/images/tea0.jpg" title="tea pot")
+        img(src="/images/coffee0.jpg" title="coffee maker")
+      .reel.col-xs-3.col-md-2#reel1
+        img(src="/images/espresso1.jpg" title="espresso tamper")
+        img(src="/images/tea1.jpg" title="tea strainer")
+        img(src="/images/coffee1.jpg" title="coffee filter")
+      .reel.col-xs-3.col-md-2#reel2
+        img(src="/images/espresso2.jpg" title="espresso beans")
+        img(src="/images/tea2.jpg" title="loose tea")
+        img(src="/images/coffee2.jpg" title="coffee grounds")
+      .col-xs-1#lever-container
+        #readyLever
+          img(src="/images/lever.png" title="lever: pull me!")
+        #spinningLever
+          img(src="/images/leverpulled.png" title="lever: spinning now..")
 
-
+  #githubLink.container-fluid
+    .row-fluid
+      .col-xs-12.text-center
+        | <a class="github-button text-center" href="https://github.com/gehpark/espresso/archive/master.zip" data-style="mega" aria-label="Download gehpark/espresso on GitHub">Download</a>
+        | <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 
