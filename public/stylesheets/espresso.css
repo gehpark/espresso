@@ -1,0 +1,22 @@
+.header {
+  font-family: 'Montez', cursive;
+  position: relative; 
+  color: #5E3A36;
+}
+
+.header h1 {
+  font-size: 65px;
+}
+
+.reel {
+  overflow: hidden;
+  float: left;
+  height: 150px;
+  top: 110px;
+  }
+
+#spinningLever {
+  position: absolute;
+  display: none;
+  top: 145px;
+}
